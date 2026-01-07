@@ -25,7 +25,7 @@ app.use(expressfileupload({useTempFiles:true,tempFileDir:'/tmp/'}))
 
 app.use(express.json());
 app.use(cookieparser());
-app.use(cors({credentials:true,origin:"http://localhost:5173"}));
+app.use(cors({credentials:true,origin:["https://learnovafrontend.vercel.app",]}));
 app.use(express.urlencoded({extended:true}));
 
 app.use("/user",userRoutes);
