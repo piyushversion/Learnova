@@ -109,7 +109,7 @@ export const MyClassroom = () =>{
 
             <Sidebar></Sidebar>
 
-            <div className='pt-[90px] pb-5 px-4 sm:px-[20px] xl:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar'>
+            <div className='pt-[90px] pb-[90px] md:pb-5 px-4 sm:px-[20px] xl:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar'>
 
                 <h3 className='text-[#dbdded] font-lexend text-[26px] mb-[1px] tracking-wide text-center sm:text-left'>My Classroom</h3>
 

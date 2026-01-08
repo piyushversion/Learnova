@@ -44,7 +44,7 @@ export const MyProfile = () => {
 
             <Sidebar></Sidebar>
 
-            <div className="pt-[90px] px-4 pb-5 sm:px-[20px] xl:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar">
+            <div className="pt-[90px] px-4 pb-[90px] md:pb-5 sm:px-[20px] xl:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar">
 
                 <div className="bg-[#5d6eee] rounded-lg px-4 sm:px-10 pt-[12px] sm:pt-[20px] pb-[18px] sm:pb-[24px] text-white text-center font-lexend font-normal">
 

@@ -240,7 +240,7 @@ const MyBasket = () => {
 
           verifyingPayment ? <div className="h-screen bg-[#181825] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] flex flex-col justify-center items-center gap-5"><p className="text-[#dbdded] text-[28px] sm:text-4xl font-nuninto tracking-wide">Verifying Payment...</p> <MoonLoader color="#5d6eee" size={150}></MoonLoader></div> :
 
-          <div className='pt-[90px] px-4 sm:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar'>
+          <div className='pt-[90px] pb-[70px] md:pb-0 px-4 sm:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar'>
 
             <h3 className='text-[#dbdded] font-lexend text-2xl sm:text-[26px] mb-[5px] text-center sm:text-left'>My Basket</h3>
             

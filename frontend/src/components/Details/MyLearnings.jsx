@@ -128,7 +128,7 @@ export const MyLearnings = () => {
 
             <Sidebar></Sidebar>
 
-            <div className="pt-[90px] px-4 sm:px-[20px] xl:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar">
+            <div className="pt-[90px] pb-[70px] md:pb-0 px-4 sm:px-[20px] xl:px-[26px] w-full md:w-[69%] lg:w-[76%] xl:w-[81%] overflow-y-scroll no-scrollbar">
 
                 <h3 className='text-[#dbdded] font-lexend text-2xl sm:text-[26px] mb-[5px] text-center sm:text-left'>My Enrollments</h3>
 
