@@ -62,7 +62,7 @@ export const Sidebar = ()=>{
 
     return (
 
-        <div className="bg-[#020813] w-full md:w-[31%] lg:w-[24%] xl:w-[19%] py-2.5 md:pt-24 md:h-screen border-t-[0.1px] border-[#696969]">
+        <div className="bg-[#020813] w-full md:w-[31%] lg:w-[24%] xl:w-[19%] py-2.5 md:pt-24 md:h-screen border-t-[0.1px] border-[#696969] fixed bottom-0 md:static">
 
             <div className="flex flex-row md:flex-col gap-5 px-3 sm:px-5 justify-evenly md:justify-start overflow-auto no-scrollbar">
 
